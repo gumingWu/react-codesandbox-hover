@@ -1,6 +1,10 @@
+import { ExampleLayout } from './components/ExampleLayout'
+
 function App() {
   return (
-    <div>hhh</div>
+    <div className="text-3xl text-red-500 ">
+      <ExampleLayout />
+    </div>
   )
 }
 
