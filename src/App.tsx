@@ -2,8 +2,8 @@ import { ExampleLayout } from './components/ExampleLayout'
 
 function App() {
   return (
-    <div className="text-3xl text-red-500 ">
-      <ExampleLayout />
+    <div>
+      <ExampleLayout filename='index.js' left={<div>sdads</div>} right={<div>vassavassavassavassavassa</div>} />
     </div>
   )
 }
